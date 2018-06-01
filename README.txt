@@ -45,6 +45,18 @@ of model creation.
 https://groups.csail.mit.edu/graphics/hdrnet/
 
 
+------------------------------------------------------------------
+- resnet_float.tflite
+ResNet tensorflow lite model based on:
+"Deep Residual Learning for Image Recognition"
+https://arxiv.org/abs/1512.03385
+
+------------------------------------------------------------------
+- resnet_quantized.tflite
+8bit quantized ResNet tensorflow lite model based on:
+"Deep Residual Learning for Image Recognition"
+https://arxiv.org/abs/1512.03385
+
 TODO(pszczepaniak): Update hdrnet to full model with pack and transpose
 TODO(pszczepaniak): Provide at least 5 inputs outputs for each model
 
