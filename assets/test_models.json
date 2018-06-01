@@ -2,6 +2,7 @@
   "models": [
     {
       "name": "mobilenet_float",
+      "testName": "MobileNet_FLOAT",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
       "inputOutputs": [
@@ -14,6 +15,7 @@
     },
     {
       "name": "mobilenet_quantized",
+      "testName": "MobileNet_QUANT8",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
       "inputOutputs": [
@@ -26,6 +28,7 @@
     },
     {
       "name": "hdrnet_float",
+      "testName": "HDRNet_FLOAT",
       "baselineSec": 0.011,
       "inputSize": [1, 256, 256, 3],
       "inputOutputs": [
@@ -38,6 +41,7 @@
     },
     {
       "name": "hdrnet_quantized",
+      "testName": "HDRNet_QUANT8",
       "baselineSec": 0.006,
       "inputSize": [1, 256, 256, 3],
       "inputOutputs": [
