@@ -1,0 +1,52 @@
+{
+  "models": [
+    {
+      "name": "mobilenet_float",
+      "baselineSec": 0.060,
+      "inputSize": [1, 224, 224, 3],
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/panda.input",
+          "output": "mobilenet_float/panda.output",
+          "dataSize": 4
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_quantized",
+      "baselineSec": 0.060,
+      "inputSize": [1, 224, 224, 3],
+      "inputOutputs": [
+        {
+          "input": "mobilenet_quantized/panda.input",
+          "output": "mobilenet_quantized/panda.output",
+          "dataSize": 1
+        }
+      ]
+    },
+    {
+      "name": "hdrnet_float",
+      "baselineSec": 0.011,
+      "inputSize": [1, 256, 256, 3],
+      "inputOutputs": [
+        {
+          "input": "hdrnet_float/panda.input",
+          "output": "hdrnet_float/panda.output",
+          "dataSize": 4
+        }
+      ]
+    },
+    {
+      "name": "hdrnet_quantized",
+      "baselineSec": 0.006,
+      "inputSize": [1, 256, 256, 3],
+      "inputOutputs": [
+        {
+          "input": "hdrnet_quantized/panda.input",
+          "output": "hdrnet_quantized/panda.output",
+          "dataSize": 1
+        }
+      ]
+    }
+  ]
+}
