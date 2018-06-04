@@ -7,8 +7,8 @@
       "inputSize": [1, 224, 224, 3],
       "inputOutputs": [
         {
-          "input": "mobilenet_float/panda.input",
-          "output": "mobilenet_float/panda.output",
+          "input": "mobilenet_float/cup.input",
+          "output": "mobilenet_float/cup.output",
           "dataSize": 4
         }
       ]
@@ -20,8 +20,8 @@
       "inputSize": [1, 224, 224, 3],
       "inputOutputs": [
         {
-          "input": "mobilenet_quantized/panda.input",
-          "output": "mobilenet_quantized/panda.output",
+          "input": "mobilenet_quantized/cup.input",
+          "output": "mobilenet_quantized/cup.output",
           "dataSize": 1
         }
       ]
@@ -32,8 +32,8 @@
       "inputSize": [1, 299, 299, 3],
       "inputOutputs": [
         {
-          "input": "resnet_float/panda.input",
-          "output": "resnet_float/panda.output",
+          "input": "resnet_float/cup.input",
+          "output": "resnet_float/cup.output",
           "dataSize": 4
         }
       ]
@@ -44,8 +44,8 @@
       "inputSize": [1, 299, 299, 3],
       "inputOutputs": [
         {
-          "input": "resnet_quantized/panda.input",
-          "output": "resnet_quantized/panda.output",
+          "input": "resnet_quantized/cup.input",
+          "output": "resnet_quantized/cup.output",
           "dataSize": 1
         }
       ]
@@ -57,8 +57,8 @@
       "inputSize": [1, 256, 256, 3],
       "inputOutputs": [
         {
-          "input": "hdrnet_float/panda.input",
-          "output": "hdrnet_float/panda.output",
+          "input": "hdrnet_float/cup.input",
+          "output": "hdrnet_float/cup.output",
           "dataSize": 4
         }
       ]
@@ -70,8 +70,8 @@
       "inputSize": [1, 256, 256, 3],
       "inputOutputs": [
         {
-          "input": "hdrnet_quantized/panda.input",
-          "output": "hdrnet_quantized/panda.output",
+          "input": "hdrnet_quantized/cup.input",
+          "output": "hdrnet_quantized/cup.output",
           "dataSize": 1
         }
       ]
