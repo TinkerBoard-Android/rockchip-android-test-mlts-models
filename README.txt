@@ -22,18 +22,21 @@ Included models:
 MobileNet tensorflow lite model based on:
 "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
 https://arxiv.org/abs/1704.04861
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 - mobilenet_quantized.tflite
 8bit quantized MobileNet tensorflow lite model based on:
 "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
 https://arxiv.org/abs/1704.04861
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 - hdrnet_float.tflite
 Partial tensorflow lite model based on
 "Deep Bilateral Learningfor Real-Time Image Enhancement"
 https://groups.csail.mit.edu/graphics/hdrnet/
+Apache License, Version 2.0
 
 It's partial because Pack and Transpose operations were not supported at the time
 of model creation.
@@ -43,19 +46,30 @@ of model creation.
 8bit quantized partial tensorflow lite model based on
 "Deep Bilateral Learning for Real-Time Image Enhancement"
 https://groups.csail.mit.edu/graphics/hdrnet/
-
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 - resnet_float.tflite
 ResNet tensorflow lite model based on:
 "Deep Residual Learning for Image Recognition"
 https://arxiv.org/abs/1512.03385
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 - resnet_quantized.tflite
 8bit quantized ResNet tensorflow lite model based on:
 "Deep Residual Learning for Image Recognition"
 https://arxiv.org/abs/1512.03385
+Apache License, Version 2.0
+
+
+------------------------------------------------------------------
+Input files:
+------------------------------------------------------------------
+- cup.input
+Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
+------------------------------------------------------------------
+
 
 TODO(pszczepaniak): Update hdrnet to full model with pack and transpose
 TODO(pszczepaniak): Provide at least 5 inputs outputs for each model
