@@ -24,12 +24,22 @@ MobileNet tensorflow lite model based on:
 https://arxiv.org/abs/1704.04861
 Apache License, Version 2.0
 
+Downloaded from
+http://download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz
+on Aug 1 2018 and converted using ToT toco.
+Golden output generated with ToT tensorflow (Linux, CPU).
+
 ------------------------------------------------------------------
 - mobilenet_quantized.tflite
 8bit quantized MobileNet tensorflow lite model based on:
 "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
 https://arxiv.org/abs/1704.04861
 Apache License, Version 2.0
+
+Downloaded from
+http://download.tensorflow.org/models/mobilenet_v1_2018_07_12/mobilenet_v1_1.0_224_quant.tgz
+on Aug 1 2018.
+Golden output generated with ToT tflite (Linux, CPU).
 
 ------------------------------------------------------------------
 - hdrnet_float.tflite
