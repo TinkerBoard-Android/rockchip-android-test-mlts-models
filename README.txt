@@ -72,12 +72,24 @@ Apache License, Version 2.0
 https://arxiv.org/abs/1512.03385
 Apache License, Version 2.0
 
+------------------------------------------------------------------
+- tts_float.tflite
+TTS tensorflow lite model based on:
+"Fast, Compact, and High Quality LSTM-RNN Based Statistical Parametric Speech Synthesizers for
+Mobile Devices"
+https://ai.google/research/pubs/pub45379
+Apache License, Version 2.0
+
+Note that the tensorflow lite model is the acoustic model in the paper. It is used because it is
+much heavier than the duration model.
 
 ------------------------------------------------------------------
 Input files:
 ------------------------------------------------------------------
 - cup.input
 Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
+- tts.input
+Linguistic features and durations of a test text, Apache License, Version 2.0
 ------------------------------------------------------------------
 
 

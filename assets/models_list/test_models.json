@@ -75,6 +75,19 @@
           "dataSize": 1
         }
       ]
+    },
+    {
+      "name": "tts_float",
+      "testName": "TTS_FLOAT",
+      "baselineSec": 0.004,
+      "inputSize": [1, 1, 1, 334],
+      "inputOutputs": [
+        {
+          "input": "tts_float/tts.input",
+          "output": "tts_float/tts.output",
+          "dataSize": 4
+        }
+      ]
     }
   ]
 }
