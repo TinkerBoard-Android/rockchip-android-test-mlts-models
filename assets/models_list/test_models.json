@@ -5,11 +5,11 @@
       "testName": "MobileNet_FLOAT",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
+      "dataSize": 4,
       "inputOutputs": [
         {
           "input": "mobilenet_float/cup.input",
-          "output": "mobilenet_float/cup.output",
-          "dataSize": 4
+          "output": "mobilenet_float/cup.output"
         }
       ]
     },
@@ -18,11 +18,11 @@
       "testName": "MobileNet_QUANT8",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
+      "dataSize": 1,
       "inputOutputs": [
         {
           "input": "mobilenet_quantized/cup.input",
-          "output": "mobilenet_quantized/cup.output",
-          "dataSize": 1
+          "output": "mobilenet_quantized/cup.output"
         }
       ]
     },
@@ -30,11 +30,11 @@
       "name": "resnet_float",
       "baselineSec": 0.760,
       "inputSize": [1, 299, 299, 3],
+      "dataSize": 4,
       "inputOutputs": [
         {
           "input": "resnet_float/cup.input",
-          "output": "resnet_float/cup.output",
-          "dataSize": 4
+          "output": "resnet_float/cup.output"
         }
       ]
     },
@@ -42,11 +42,11 @@
       "name": "resnet_quantized",
       "baselineSec": 0.670,
       "inputSize": [1, 299, 299, 3],
+      "dataSize": 1,
       "inputOutputs": [
         {
           "input": "resnet_quantized/cup.input",
-          "output": "resnet_quantized/cup.output",
-          "dataSize": 1
+          "output": "resnet_quantized/cup.output"
         }
       ]
     },
@@ -55,11 +55,11 @@
       "testName": "HDRNet_FLOAT",
       "baselineSec": 0.011,
       "inputSize": [1, 256, 256, 3],
+      "dataSize": 4,
       "inputOutputs": [
         {
           "input": "hdrnet_float/cup.input",
-          "output": "hdrnet_float/cup.output",
-          "dataSize": 4
+          "output": "hdrnet_float/cup.output"
         }
       ]
     },
@@ -68,11 +68,11 @@
       "testName": "HDRNet_QUANT8",
       "baselineSec": 0.006,
       "inputSize": [1, 256, 256, 3],
+      "dataSize": 1,
       "inputOutputs": [
         {
           "input": "hdrnet_quantized/cup.input",
-          "output": "hdrnet_quantized/cup.output",
-          "dataSize": 1
+          "output": "hdrnet_quantized/cup.output"
         }
       ]
     },
@@ -81,11 +81,11 @@
       "testName": "TTS_FLOAT",
       "baselineSec": 0.004,
       "inputSize": [1, 1, 1, 334],
+      "dataSize": 4,
       "inputOutputs": [
         {
           "input": "tts_float/tts.input",
-          "output": "tts_float/tts.output",
-          "dataSize": 4
+          "output": "tts_float/tts.output"
         }
       ]
     }
