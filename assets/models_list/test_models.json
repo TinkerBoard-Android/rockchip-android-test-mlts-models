@@ -84,8 +84,8 @@
       "dataSize": 4,
       "inputOutputs": [
         {
-          "input": "tts_float/tts.input",
-          "output": "tts_float/tts.output"
+          "input": "tts_float/tts_float.input",
+          "output": "tts_float/tts_float.output"
         }
       ]
     }
