@@ -88,8 +88,9 @@ Input files:
 ------------------------------------------------------------------
 - cup.input
 Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
-- tts.input
-Linguistic features and durations of a test text, Apache License, Version 2.0
+- tts_float/arctic_*.input
+Linguistic features and durations generated from text sentences from the CMU Arctic set
+(http://www.festvox.org/cmu_arctic/cmuarctic.data), Apache License, Version 2.0
 ------------------------------------------------------------------
 
 
