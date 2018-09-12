@@ -82,6 +82,12 @@ Apache License, Version 2.0
 
 Note that the tensorflow lite model is the acoustic model in the paper. It is used because it is
 much heavier than the duration model.
+------------------------------------------------------------------
+- asr_float.tflite
+ASR tensorflow lite model based on the ASR acoustic model in:
+"Personalized Speech recognition on mobile devices"
+https://arxiv.org/abs/1603.03185
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 Input files:
@@ -91,6 +97,8 @@ Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
 - tts_float/arctic_*.input
 Linguistic features and durations generated from text sentences from the CMU Arctic set
 (http://www.festvox.org/cmu_arctic/cmuarctic.data), Apache License, Version 2.0
+- asr_float.input
+Acoustic features of a test speech, Apache License, Version 2.0
 ------------------------------------------------------------------
 
 
