@@ -1684,6 +1684,19 @@
           "output": "tts_float/arctic_b0200.output"
         }
       ]
+    },
+    {
+      "name": "asr_float",
+      "testName": "ASR_FLOAT",
+      "baselineSec": 0.014,
+      "inputSize": [1, 320, 1, 1],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "asr_float/asr_float.input",
+          "output": "asr_float/asr_float.output"
+        }
+      ]
     }
   ]
 }
