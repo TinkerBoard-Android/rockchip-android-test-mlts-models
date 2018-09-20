@@ -77,6 +77,19 @@
       ]
     },
     {
+      "name": "ssd_mobilenet_v1_coco_quantized",
+      "testName": "SSD_MOBILENET_V1_COCO_QUANT8",
+      "baselineSec": 0.97,
+      "inputSize": [1, 300, 300, 3],
+      "dataSize": 1,
+      "inputOutputs": [
+        {
+          "input": "ssd_mobilenet_v1_coco_quantized/tarmac.input",
+          "output": "ssd_mobilenet_v1_coco_quantized/tarmac.output"
+        }
+      ]
+    },
+    {
       "name": "tts_float",
       "testName": "TTS_FLOAT",
       "baselineSec": 0.004,

@@ -73,6 +73,19 @@ https://arxiv.org/abs/1512.03385
 Apache License, Version 2.0
 
 ------------------------------------------------------------------
+- ssd_mobilenet_v1_coco_quantized.tflite
+8bit quantized MobileNet SSD tensorflow lite model based on:
+"Speed/accuracy trade-offs for modern convolutional object detectors."
+https://arxiv.org/abs/1611.10012
+Apache License, Version 2.0
+
+Generated from
+http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_quantized_300x300_coco14_sync_2018_07_18.tar.gz
+on Sep 19 2018.
+See also: https://github.com/tensorflow/models/tree/master/research/object_detection
+Golden output generated with ToT tflite (Linux, CPU).
+
+------------------------------------------------------------------
 - tts_float.tflite
 TTS tensorflow lite model based on:
 "Fast, Compact, and High Quality LSTM-RNN Based Statistical Parametric Speech Synthesizers for
@@ -97,6 +110,8 @@ Apache License, Version 2.0
 ------------------------------------------------------------------
 Input files:
 ------------------------------------------------------------------
+- ssd_mobilenet_v1_coco_quantized/tarmac.input
+Photo of airport tarmac by krtaylor@google.com, Apache License, Version 2.0
 - cup.input
 Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
 - tts_float/arctic_*.input
