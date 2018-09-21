@@ -4,13 +4,13 @@
       "name": "mobilenet_float_topk_aosp",
       "modelFile": "mobilenet_float",
       "baselineSec": 0.060,
+      "evaluator": "TopK",
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
       "dataset": {
           "inputPath": "imagenet_aosp/",
           "groundTruth": "imagenet_aosp/ground_truth_labels.txt",
           "labels": "imagenet_aosp/labels.txt",
-          "evaluator": "TopK",
           "preprocessor": "Inception"
       }
     },
@@ -18,6 +18,7 @@
       "name": "mobilenet_quantized_topk_aosp",
       "modelFile": "mobilenet_quantized",
       "baselineSec": 0.060,
+      "evaluator": "TopK",
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
       "inputScale": 0.007812,
@@ -26,7 +27,6 @@
           "inputPath": "imagenet_aosp",
           "groundTruth": "imagenet_aosp/ground_truth_labels.txt",
           "labels": "imagenet_aosp/labels.txt",
-          "evaluator": "TopK",
           "preprocessor": "Inception"
       }
     }
