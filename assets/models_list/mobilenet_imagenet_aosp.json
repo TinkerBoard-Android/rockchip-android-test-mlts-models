@@ -4,7 +4,9 @@
       "name": "mobilenet_float_topk_aosp",
       "modelFile": "mobilenet_float",
       "baselineSec": 0.060,
-      "evaluator": "TopK",
+      "evaluator": {
+          "className": "TopK"
+      },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
       "dataset": {
@@ -18,7 +20,9 @@
       "name": "mobilenet_quantized_topk_aosp",
       "modelFile": "mobilenet_quantized",
       "baselineSec": 0.060,
-      "evaluator": "TopK",
+      "evaluator": {
+          "className": "TopK"
+      },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
       "inputScale": 0.007812,
