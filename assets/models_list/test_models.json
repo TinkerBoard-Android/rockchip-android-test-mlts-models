@@ -93,6 +93,10 @@
       "name": "tts_float",
       "testName": "TTS_FLOAT",
       "baselineSec": 0.004,
+      "evaluator": {
+          "className": "MelCepLogF0",
+          "outputMeanStdDev": "tts_float/tts_float.output_mean_std_dev"
+      },
       "inputSize": [1, 1, 1, 334],
       "dataSize": 4,
       "inputOutputs": [
