@@ -106,6 +106,11 @@ Apache License, Version 2.0
 TFLite test hotword model, see:
 https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite/models/testdata/g3doc#hotword-model
 Apache License, Version 2.0
+------------------------------------------------------------------
+- endpointer_float.tflite
+TFLite test endpointer model, see:
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite/models/testdata/g3doc#endpointer-model
+Apache License, Version 2.0
 
 ------------------------------------------------------------------
 Input files:
@@ -120,6 +125,8 @@ Linguistic features and durations generated from text sentences from the CMU Arc
 - asr_float.input
 Acoustic features of a test speech, Apache License, Version 2.0
 - hotword_float.input
+Acoustic features of a test speech, Apache License, Version 2.0
+- endpointer_float.input
 Acoustic features of a test speech, Apache License, Version 2.0
 ------------------------------------------------------------------
 

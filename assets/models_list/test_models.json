@@ -1723,6 +1723,19 @@
           "output": "hotword_float/hotword_float.output"
         }
       ]
+    },
+    {
+      "name": "endpointer_float",
+      "testName": "ENDPOINTER_FLOAT",
+      "baselineSec": 0.009,
+      "inputSize": [1, 40, 1, 1],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "endpointer_float/endpointer_float.input",
+          "output": "endpointer_float/endpointer_float.output"
+        }
+      ]
     }
   ]
 }
