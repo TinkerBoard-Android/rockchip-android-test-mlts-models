@@ -1718,7 +1718,10 @@
     {
       "name": "asr_float",
       "testName": "ASR_FLOAT",
-      "baselineSec": 0.014,
+      "baselineSec": 0.016,
+      "evaluator": {
+          "className": "PhoneErrorRate"
+      },
       "inputSize": [1, 320, 1, 1],
       "dataSize": 4,
       "inputOutputs": [
