@@ -1,28 +1,131 @@
 {
   "models": [
     {
-      "name": "mobilenet_float",
-      "testName": "MobileNet_FLOAT",
+      "name": "mobilenet_v1_1.0_224",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
       "inputOutputs": [
         {
-          "input": "mobilenet_float/cup.input",
-          "output": "mobilenet_float/cup.output"
+          "input": "mobilenet_float/cup_224.input",
+          "output": "mobilenet_float/cup_1.0_224.output"
+        },
+		{
+          "input": "mobilenet_float/banana_224.input",
+          "output": "mobilenet_float/banana_1.0_224.output"
         }
       ]
     },
     {
-      "name": "mobilenet_quantized",
-      "testName": "MobileNet_QUANT8",
+      "name": "mobilenet_v1_1.0_224_quant",
       "baselineSec": 0.060,
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
       "inputOutputs": [
         {
-          "input": "mobilenet_quantized/cup.input",
-          "output": "mobilenet_quantized/cup.output"
+          "input": "mobilenet_quantized/cup_224.input",
+          "output": "mobilenet_quantized/cup_1.0_224.output"
+        },
+        {
+          "input": "mobilenet_quantized/banana_224.input",
+          "output": "mobilenet_quantized/banana_1.0_224.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v1_0.75_192",
+      "baselineSec": 0.026,
+      "inputSize": [1, 192, 192, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_192.input",
+          "output": "mobilenet_float/cup_0.75_192.output"
+        },
+		{
+          "input": "mobilenet_float/banana_192.input",
+          "output": "mobilenet_float/banana_0.75_192.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v1_0.75_192_quant",
+      "baselineSec": 0.025,
+      "inputSize": [1, 192, 192, 3],
+      "dataSize": 1,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_quantized/cup_192.input",
+          "output": "mobilenet_quantized/cup_0.75_192.output"
+        },
+        {
+          "input": "mobilenet_quantized/banana_192.input",
+          "output": "mobilenet_quantized/banana_0.75_192.output"
+        }
+      ]
+    },
+
+    {
+      "name": "mobilenet_v1_0.5_160",
+      "baselineSec": 0.011,
+      "inputSize": [1, 160, 160, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_160.input",
+          "output": "mobilenet_float/cup_0.5_160.output"
+        },
+		{
+          "input": "mobilenet_float/banana_160.input",
+          "output": "mobilenet_float/banana_0.5_160.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v1_0.5_160_quant",
+      "baselineSec": 0.0010,
+      "inputSize": [1, 160, 160, 3],
+      "dataSize": 1,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_quantized/cup_160.input",
+          "output": "mobilenet_quantized/cup_0.5_160.output"
+        },
+        {
+          "input": "mobilenet_quantized/banana_160.input",
+          "output": "mobilenet_quantized/banana_0.5_160.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v1_0.25_128",
+      "baselineSec": 0.004,
+      "inputSize": [1, 128, 128, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_128.input",
+          "output": "mobilenet_float/cup_0.25_128.output"
+        },
+		{
+          "input": "mobilenet_float/banana_128.input",
+          "output": "mobilenet_float/banana_0.25_128.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v1_0.25_128_quant",
+      "baselineSec": 0.003,
+      "inputSize": [1, 128, 128, 3],
+      "dataSize": 1,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_quantized/cup_128.input",
+          "output": "mobilenet_quantized/cup_0.25_128.output"
+        },
+        {
+          "input": "mobilenet_quantized/banana_128.input",
+          "output": "mobilenet_quantized/banana_0.25_128.output"
         }
       ]
     },
