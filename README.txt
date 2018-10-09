@@ -18,27 +18,27 @@ This directory contains models data for the Android Neural Networks API benchmar
 Included models:
 
 ------------------------------------------------------------------
-- mobilenet_float.tflite
+- mobilenet_v1_(0.25_128|0.5_160|0.75_192|1.0_224).tflite
 MobileNet tensorflow lite model based on:
 "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
 https://arxiv.org/abs/1704.04861
 Apache License, Version 2.0
 
 Downloaded from
-http://download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224.tgz
-on Aug 1 2018 and converted using ToT toco.
+http://download.tensorflow.org/models/mobilenet_v1_2018_08_02/mobilenet_v1_${variant}.tgz
+on Oct 5 2018 and converted using ToT toco.
 Golden output generated with ToT tensorflow (Linux, CPU).
 
 ------------------------------------------------------------------
-- mobilenet_quantized.tflite
+- mobilenet_v1_(0.25_128|0.5_160|0.75_192|1.0_224)_quant.tflite
 8bit quantized MobileNet tensorflow lite model based on:
 "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
 https://arxiv.org/abs/1704.04861
 Apache License, Version 2.0
 
 Downloaded from
-http://download.tensorflow.org/models/mobilenet_v1_2018_07_12/mobilenet_v1_1.0_224_quant.tgz
-on Aug 1 2018.
+http://download.tensorflow.org/models/mobilenet_v1_2018_08_02/mobilenet_v1_${variant}_quant.tgz
+on Oct 5 2018.
 Golden output generated with ToT tflite (Linux, CPU).
 
 ------------------------------------------------------------------
@@ -107,15 +107,16 @@ Input files:
 ------------------------------------------------------------------
 - ssd_mobilenet_v1_coco_quantized/tarmac.input
 Photo of airport tarmac by krtaylor@google.com, Apache License, Version 2.0
-- cup.input
+- cup_(128|160|192|224).input
 Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
+- banana_(128|160|192|224).input
+Photo of banana by pszczepaniak@google.com, Apache License, Version 2.0
 - tts_float/arctic_*.input
 Linguistic features and durations generated from text sentences from the CMU Arctic set
 (http://www.festvox.org/cmu_arctic/cmuarctic.data), Apache License, Version 2.0
 - asr_float.input
 Acoustic features of a test speech, Apache License, Version 2.0
 ------------------------------------------------------------------
-
 
 TODO(pszczepaniak): Update hdrnet to full model with pack and transpose
 TODO(pszczepaniak): Provide at least 5 inputs outputs for each model
