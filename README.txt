@@ -73,6 +73,19 @@ https://arxiv.org/abs/1512.03385
 Apache License, Version 2.0
 
 ------------------------------------------------------------------
+- ssd_mobilenet_v1_coco_float.tflite
+Float version of MobileNet SSD tensorflow model based on:
+"Speed/accuracy trade-offs for modern convolutional object detectors."
+https://arxiv.org/abs/1611.10012
+Apache License, Version 2.0
+
+Generated from
+http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz
+on Sep 24 2018.
+See also: https://github.com/tensorflow/models/tree/master/research/object_detection
+Golden output generated with ToT tflite (Linux, x86_64 CPU).
+
+------------------------------------------------------------------
 - ssd_mobilenet_v1_coco_quantized.tflite
 8bit quantized MobileNet SSD tensorflow lite model based on:
 "Speed/accuracy trade-offs for modern convolutional object detectors."
@@ -105,7 +118,7 @@ Apache License, Version 2.0
 ------------------------------------------------------------------
 Input files:
 ------------------------------------------------------------------
-- ssd_mobilenet_v1_coco_quantized/tarmac.input
+- ssd_mobilenet_v1_coco_*/tarmac.input
 Photo of airport tarmac by krtaylor@google.com, Apache License, Version 2.0
 - cup_(128|160|192|224).input
 Photo of cup by pszczepaniak@google.com, Apache License, Version 2.0
