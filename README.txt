@@ -137,8 +137,9 @@ Photo of banana by pszczepaniak@google.com, Apache License, Version 2.0
 - tts_float/arctic_*.input
 Linguistic features and durations generated from text sentences from the CMU Arctic set
 (http://www.festvox.org/cmu_arctic/cmuarctic.data), Apache License, Version 2.0
-- asr_float.input
-Acoustic features of a test speech, Apache License, Version 2.0
+- asr_float/*.input
+Acoustic features generated from audio files from the LibriSpeech dataset
+(http://www.openslr.org/12/), Creative Commons Attribution 4.0 International License
 - hotword_float.input
 Acoustic features of a test speech, Apache License, Version 2.0
 - endpointer_float.input
