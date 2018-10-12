@@ -114,16 +114,6 @@ ASR tensorflow lite model based on the ASR acoustic model in:
 "Personalized Speech recognition on mobile devices"
 https://arxiv.org/abs/1603.03185
 Apache License, Version 2.0
-------------------------------------------------------------------
-- hotword_float.tflite
-TFLite test hotword model, see:
-https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite/models/testdata/g3doc#hotword-model
-Apache License, Version 2.0
-------------------------------------------------------------------
-- endpointer_float.tflite
-TFLite test endpointer model, see:
-https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite/models/testdata/g3doc#endpointer-model
-Apache License, Version 2.0
 
 ------------------------------------------------------------------
 Input files:
@@ -140,10 +130,6 @@ Linguistic features and durations generated from text sentences from the CMU Arc
 - asr_float/*.input
 Acoustic features generated from audio files from the LibriSpeech dataset
 (http://www.openslr.org/12/), Creative Commons Attribution 4.0 International License
-- hotword_float.input
-Acoustic features of a test speech, Apache License, Version 2.0
-- endpointer_float.input
-Acoustic features of a test speech, Apache License, Version 2.0
 ------------------------------------------------------------------
 
 TODO(pszczepaniak): Update hdrnet to full model with pack and transpose

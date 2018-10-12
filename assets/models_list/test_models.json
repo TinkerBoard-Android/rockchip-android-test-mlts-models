@@ -2029,32 +2029,6 @@
           "output": "asr_float/61-70968-0049.output"
         }
       ]
-    },
-    {
-      "name": "hotword_float",
-      "testName": "HOTWORD_FLOAT",
-      "baselineSec": 0.004,
-      "inputSize": [1, 40, 1, 1],
-      "dataSize": 4,
-      "inputOutputs": [
-        {
-          "input": "hotword_float/hotword_float.input",
-          "output": "hotword_float/hotword_float.output"
-        }
-      ]
-    },
-    {
-      "name": "endpointer_float",
-      "testName": "ENDPOINTER_FLOAT",
-      "baselineSec": 0.009,
-      "inputSize": [1, 40, 1, 1],
-      "dataSize": 4,
-      "inputOutputs": [
-        {
-          "input": "endpointer_float/endpointer_float.input",
-          "output": "endpointer_float/endpointer_float.output"
-        }
-      ]
     }
   ]
 }
