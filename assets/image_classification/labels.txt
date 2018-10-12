@@ -108,7 +108,7 @@ koala
 wombat
 jellyfish
 sea anemone
-brain coral
+brain corall
 flatworm
 nematode
 conch
@@ -972,7 +972,7 @@ eggnog
 alp
 bubble
 cliff
-coral reef
+corall reef
 geyser
 lakeside
 promontory
@@ -990,7 +990,7 @@ corn
 acorn
 hip
 buckeye
-coral fungus
+corall fungus
 agaric
 gyromitra
 stinkhorn
