@@ -195,7 +195,7 @@
     {
       "name": "ssd_mobilenet_v1_coco_quantized",
       "testName": "SSD_MOBILENET_V1_COCO_QUANT8",
-      "baselineSec": 0.97,
+      "baselineSec": 0.097,
       "inputSize": [1, 300, 300, 3],
       "dataSize": 1,
       "inputOutputs": [
