@@ -42,37 +42,6 @@ on Oct 5 2018.
 Golden output generated with ToT tflite (Linux, CPU).
 
 ------------------------------------------------------------------
-- hdrnet_float.tflite
-Partial tensorflow lite model based on
-"Deep Bilateral Learningfor Real-Time Image Enhancement"
-https://groups.csail.mit.edu/graphics/hdrnet/
-Apache License, Version 2.0
-
-It's partial because Pack and Transpose operations were not supported at the time
-of model creation.
-
-------------------------------------------------------------------
-- hdrnet_quantized.tflite
-8bit quantized partial tensorflow lite model based on
-"Deep Bilateral Learning for Real-Time Image Enhancement"
-https://groups.csail.mit.edu/graphics/hdrnet/
-Apache License, Version 2.0
-
-------------------------------------------------------------------
-- resnet_float.tflite
-ResNet tensorflow lite model based on:
-"Deep Residual Learning for Image Recognition"
-https://arxiv.org/abs/1512.03385
-Apache License, Version 2.0
-
-------------------------------------------------------------------
-- resnet_quantized.tflite
-8bit quantized ResNet tensorflow lite model based on:
-"Deep Residual Learning for Image Recognition"
-https://arxiv.org/abs/1512.03385
-Apache License, Version 2.0
-
-------------------------------------------------------------------
 - ssd_mobilenet_v1_coco_float.tflite
 Float version of MobileNet SSD tensorflow model based on:
 "Speed/accuracy trade-offs for modern convolutional object detectors."
@@ -145,6 +114,5 @@ Acoustic features of a test speech, Apache License, Version 2.0
 Acoustic features of a test speech, Apache License, Version 2.0
 ------------------------------------------------------------------
 
-TODO(pszczepaniak): Update hdrnet to full model with pack and transpose
 TODO(pszczepaniak): Provide at least 5 inputs outputs for each model
 
