@@ -130,56 +130,6 @@
       ]
     },
     {
-      "name": "resnet_float",
-      "baselineSec": 0.760,
-      "inputSize": [1, 299, 299, 3],
-      "dataSize": 4,
-      "inputOutputs": [
-        {
-          "input": "resnet_float/cup.input",
-          "output": "resnet_float/cup.output"
-        }
-      ]
-    },
-    {
-      "name": "resnet_quantized",
-      "baselineSec": 0.670,
-      "inputSize": [1, 299, 299, 3],
-      "dataSize": 1,
-      "inputOutputs": [
-        {
-          "input": "resnet_quantized/cup.input",
-          "output": "resnet_quantized/cup.output"
-        }
-      ]
-    },
-    {
-      "name": "hdrnet_float",
-      "testName": "HDRNet_FLOAT",
-      "baselineSec": 0.011,
-      "inputSize": [1, 256, 256, 3],
-      "dataSize": 4,
-      "inputOutputs": [
-        {
-          "input": "hdrnet_float/cup.input",
-          "output": "hdrnet_float/cup.output"
-        }
-      ]
-    },
-    {
-      "name": "hdrnet_quantized",
-      "testName": "HDRNet_QUANT8",
-      "baselineSec": 0.006,
-      "inputSize": [1, 256, 256, 3],
-      "dataSize": 1,
-      "inputOutputs": [
-        {
-          "input": "hdrnet_quantized/cup.input",
-          "output": "hdrnet_quantized/cup.output"
-        }
-      ]
-    },
-    {
       "name": "ssd_mobilenet_v1_coco_float",
       "testName": "SSD_MOBILENET_V1_COCO_FLOAT",
       "baselineSec": 0.182,
