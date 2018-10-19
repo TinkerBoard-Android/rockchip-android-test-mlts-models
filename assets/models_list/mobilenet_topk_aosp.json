@@ -5,7 +5,8 @@
       "modelFile": "mobilenet_v1_1.0_224",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.80
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
@@ -21,7 +22,8 @@
       "modelFile": "mobilenet_v1_1.0_224_quant",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.775
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
@@ -39,7 +41,8 @@
       "modelFile": "mobilenet_v1_0.75_192",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.7125
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 4,
@@ -55,7 +58,8 @@
       "modelFile": "mobilenet_v1_0.75_192_quant",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.7125
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 1,
@@ -73,7 +77,8 @@
       "modelFile": "mobilenet_v1_0.5_160",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.675
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 4,
@@ -89,7 +94,8 @@
       "modelFile": "mobilenet_v1_0.5_160_quant",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.6125
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 1,
@@ -107,7 +113,8 @@
       "modelFile": "mobilenet_v1_0.25_128",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.56250
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 4,
@@ -123,7 +130,8 @@
       "modelFile": "mobilenet_v1_0.25_128_quant",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.55
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 1,
@@ -141,7 +149,8 @@
       "modelFile": "mobilenet_v2_0.35_128",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.625
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 4,
@@ -157,7 +166,8 @@
       "modelFile": "mobilenet_v2_0.5_160",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.6875
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 4,
@@ -173,7 +183,8 @@
       "modelFile": "mobilenet_v2_0.75_192",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.7375
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 4,
@@ -189,7 +200,8 @@
       "modelFile": "mobilenet_v2_1.0_224",
       "baselineSec": 0.060,
       "evaluator": {
-          "className": "TopK"
+          "className": "TopK",
+          "expectedTop1": 0.7875
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
