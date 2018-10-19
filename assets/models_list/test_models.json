@@ -130,6 +130,71 @@
       ]
     },
     {
+      "name": "mobilenet_v2_0.35_128",
+      "baselineSec": 0.060,
+      "inputSize": [1, 128, 128, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_128.input",
+          "output": "mobilenet_float/cup_v2_0.35_128.output"
+        },
+		{
+          "input": "mobilenet_float/banana_128.input",
+          "output": "mobilenet_float/banana_v2_0.35_128.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v2_0.5_160",
+      "baselineSec": 0.060,
+      "inputSize": [1, 160, 160, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_160.input",
+          "output": "mobilenet_float/cup_v2_0.5_160.output"
+        },
+		{
+          "input": "mobilenet_float/banana_160.input",
+          "output": "mobilenet_float/banana_v2_0.5_160.output"
+        }
+      ]
+    },
+    {
+      "name": "mobilenet_v2_0.75_192",
+      "baselineSec": 0.060,
+      "inputSize": [1, 192, 192, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_192.input",
+          "output": "mobilenet_float/cup_v2_0.75_192.output"
+        },
+		{
+          "input": "mobilenet_float/banana_192.input",
+          "output": "mobilenet_float/banana_v2_0.75_192.output"
+        }
+      ]
+    },
+
+    {
+      "name": "mobilenet_v2_1.0_224",
+      "baselineSec": 0.060,
+      "inputSize": [1, 224, 224, 3],
+      "dataSize": 4,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_float/cup_224.input",
+          "output": "mobilenet_float/cup_v2_1.0_224.output"
+        },
+		{
+          "input": "mobilenet_float/banana_224.input",
+          "output": "mobilenet_float/banana_v2_1.0_224.output"
+        }
+      ]
+    },
+    {
       "name": "ssd_mobilenet_v1_coco_float",
       "testName": "SSD_MOBILENET_V1_COCO_FLOAT",
       "baselineSec": 0.182,
