@@ -2044,6 +2044,22 @@
           "output": "asr_float/61-70968-0049.output"
         }
       ]
+    },
+    {
+      "name": "mobilenet_v2_1.0_224_quant",
+      "baselineSec": 0.060,
+      "inputSize": [1, 224, 224, 3],
+      "dataSize": 1,
+      "inputOutputs": [
+        {
+          "input": "mobilenet_quantized/cup_224.input",
+          "output": "mobilenet_quantized/cup_1.0_224.output"
+        },
+        {
+          "input": "mobilenet_quantized/banana_224.input",
+          "output": "mobilenet_quantized/banana_1.0_224.output"
+        }
+      ]
     }
   ]
 }
