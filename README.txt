@@ -54,6 +54,18 @@ on Oct 16 2018 and converted using ToT toco.
 Golden output generated with ToT tensorflow (Linux, CPU).
 
 ------------------------------------------------------------------
+- mobilenet_v2_1.0_224_quant.tflite
+8bit quantized MobileNet v2 tensorflow lite model based on:
+"MobileNetV2: Inverted Residuals and Linear Bottlenecks"
+https://arxiv.org/abs/1801.04381
+Apache License, Version 2.0
+
+Downloaded from
+http://download.tensorflow.org/models/tflite_11_05_08/mobilenet_v2_1.0_224_quant.tgz
+on Oct 30 2018.
+Golden output generated with ToT tflite (Linux, CPU).
+
+------------------------------------------------------------------
 - ssd_mobilenet_v1_coco_float.tflite
 Float version of MobileNet SSD tensorflow model based on:
 "Speed/accuracy trade-offs for modern convolutional object detectors."
