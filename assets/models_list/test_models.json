@@ -203,7 +203,11 @@
       "inputOutputs": [
         {
           "input": "ssd_mobilenet_v1_coco_float/tarmac_float.input",
-          "output": "ssd_mobilenet_v1_coco_float/tarmac_float.output"
+          "outputs": [
+            "ssd_mobilenet_v1_coco_float/tarmac_float.output0",
+            "ssd_mobilenet_v1_coco_float/tarmac_float.output1",
+            "ssd_mobilenet_v1_coco_float/tarmac_float.output2"
+          ]
         }
       ]
     },
