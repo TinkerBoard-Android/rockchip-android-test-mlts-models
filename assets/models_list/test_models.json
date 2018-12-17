@@ -240,6 +240,7 @@
     {
       "name": "tts_float",
       "testName": "TTS_FLOAT",
+      "minSdkVersion": 29,
       "baselineSec": 0.004,
       "evaluator": {
           "className": "MelCepLogF0",
