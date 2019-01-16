@@ -246,7 +246,7 @@
           "className": "MelCepLogF0",
           "outputMeanStdDev": "tts_float/tts_float.output_mean_std_dev"
       },
-      "inputSize": [1, 1, 1, 334],
+      "inputSize": [1, 334],
       "dataSize": 4,
       "inputOutputs": [
         {
@@ -458,7 +458,7 @@
       "evaluator": {
           "className": "PhoneErrorRate"
       },
-      "inputSize": [1, 320, 1, 1],
+      "inputSize": [1, 320],
       "dataSize": 4,
       "inputOutputs": [
         {
