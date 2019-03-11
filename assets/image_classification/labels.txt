@@ -24,7 +24,7 @@ kite
 bald eagle
 vulture
 great grey owl
-European fire salamander
+european fire salamander
 common newt
 eft
 spotted salamander
@@ -39,17 +39,17 @@ terrapin
 box turtle
 banded gecko
 common iguana
-American chameleon
+american chameleon
 whiptail
 agama
 frilled lizard
 alligator lizard
-Gila monster
+gila monster
 green lizard
-African chameleon
-Komodo dragon
-African crocodile
-American alligator
+african chameleon
+komodo dragon
+african crocodile
+american alligator
 triceratops
 thunder snake
 ringneck snake
@@ -62,7 +62,7 @@ vine snake
 night snake
 boa constrictor
 rock python
-Indian cobra
+indian cobra
 green mamba
 sea snake
 horned viper
@@ -86,7 +86,7 @@ prairie chicken
 peacock
 quail
 partridge
-African grey
+african grey
 macaw
 sulphur-crested cockatoo
 lorikeet
@@ -117,11 +117,11 @@ slug
 sea slug
 chiton
 chambered nautilus
-Dungeness crab
+dungeness crab
 rock crab
 fiddler crab
 king crab
-American lobster
+american lobster
 spiny lobster
 crayfish
 hermit crab
@@ -131,12 +131,12 @@ black stork
 spoonbill
 flamingo
 little blue heron
-American egret
+american egret
 bittern
 crane
 limpkin
-European gallinule
-American coot
+european gallinule
+american coot
 bustard
 ruddy turnstone
 red-backed sandpiper
@@ -150,77 +150,77 @@ grey whale
 killer whale
 dugong
 sea lion
-Chihuahua
-Japanese spaniel
-Maltese dog
-Pekinese
-Shih-Tzu
-Blenheim spaniel
+chihuahua
+japanese spaniel
+maltese dog
+pekinese
+shih-tzu
+blenheim spaniel
 papillon
 toy terrier
-Rhodesian ridgeback
-Afghan hound
+rhodesian ridgeback
+afghan hound
 basset
 beagle
 bloodhound
 bluetick
 black-and-tan coonhound
-Walker hound
-English foxhound
+walker hound
+english foxhound
 redbone
 borzoi
-Irish wolfhound
-Italian greyhound
+irish wolfhound
+italian greyhound
 whippet
-Ibizan hound
-Norwegian elkhound
+ibizan hound
+norwegian elkhound
 otterhound
-Saluki
-Scottish deerhound
-Weimaraner
-Staffordshire bullterrier
-American Staffordshire terrier
-Bedlington terrier
-Border terrier
-Kerry blue terrier
-Irish terrier
-Norfolk terrier
-Norwich terrier
-Yorkshire terrier
+saluki
+scottish deerhound
+weimaraner
+staffordshire bullterrier
+american staffordshire terrier
+bedlington terrier
+border terrier
+kerry blue terrier
+irish terrier
+norfolk terrier
+norwich terrier
+yorkshire terrier
 wire-haired fox terrier
-Lakeland terrier
-Sealyham terrier
-Airedale
+lakeland terrier
+sealyham terrier
+airedale
 cairn
-Australian terrier
-Dandie Dinmont
-Boston bull
+australian terrier
+dandie dinmont
+boston bull
 miniature schnauzer
 giant schnauzer
 standard schnauzer
-Scotch terrier
-Tibetan terrier
+scotch terrier
+tibetan terrier
 silky terrier
 soft-coated wheaten terrier
-West Highland white terrier
-Lhasa
+west highland white terrier
+lhasa
 flat-coated retriever
 curly-coated retriever
 golden retriever
-Labrador retriever
-Chesapeake Bay retriever
-German short-haired pointer
+labrador retriever
+chesapeake bay retriever
+german short-haired pointer
 vizsla
-English setter
-Irish setter
-Gordon setter
-Brittany spaniel
+english setter
+irish setter
+gordon setter
+brittany spaniel
 clumber
-English springer
-Welsh springer spaniel
+english springer
+welsh springer spaniel
 cocker spaniel
-Sussex spaniel
-Irish water spaniel
+sussex spaniel
+irish water spaniel
 kuvasz
 schipperke
 groenendael
@@ -228,63 +228,63 @@ malinois
 briard
 kelpie
 komondor
-Old English sheepdog
-Shetland sheepdog
+old english sheepdog
+shetland sheepdog
 collie
-Border collie
-Bouvier des Flandres
-Rottweiler
-German shepherd
-Doberman
+border collie
+bouvier des flandres
+rottweiler
+german shepherd
+doberman
 miniature pinscher
-Greater Swiss Mountain dog
-Bernese mountain dog
-Appenzeller
-EntleBucher
+greater swiss mountain dog
+bernese mountain dog
+appenzeller
+entlebucher
 boxer
 bull mastiff
-Tibetan mastiff
-French bulldog
-Great Dane
-Saint Bernard
-Eskimo dog
+tibetan mastiff
+french bulldog
+great dane
+saint bernard
+eskimo dog
 malamute
-Siberian husky
+siberian husky
 dalmatian
 affenpinscher
 basenji
 pug
-Leonberg
-Newfoundland
-Great Pyrenees
-Samoyed
-Pomeranian
+leonberg
+newfoundland
+great pyrenees
+samoyed
+pomeranian
 chow
 keeshond
-Brabancon griffon
-Pembroke
-Cardigan
+brabancon griffon
+pembroke
+cardigan
 toy poodle
 miniature poodle
 standard poodle
-Mexican hairless
+mexican hairless
 timber wolf
 white wolf
 red wolf
 coyote
 dingo
 dhole
-African hunting dog
+african hunting dog
 hyena
 red fox
 kit fox
-Arctic fox
+arctic fox
 grey fox
 tabby
 tiger cat
-Persian cat
-Siamese cat
-Egyptian cat
+persian cat
+siamese cat
+egyptian cat
 cougar
 lynx
 leopard
@@ -294,7 +294,7 @@ lion
 tiger
 cheetah
 brown bear
-American black bear
+american black bear
 ice bear
 sloth bear
 mongoose
@@ -331,7 +331,7 @@ sea urchin
 sea cucumber
 wood rabbit
 hare
-Angora
+angora
 hamster
 porcupine
 fox squirrel
@@ -353,7 +353,7 @@ ibex
 hartebeest
 impala
 gazelle
-Arabian camel
+arabian camel
 llama
 weasel
 mink
@@ -382,10 +382,10 @@ howler monkey
 titi
 spider monkey
 squirrel monkey
-Madagascar cat
+madagascar cat
 indri
-Indian elephant
-African elephant
+indian elephant
+african elephant
 lesser panda
 giant panda
 barracouta
@@ -418,7 +418,7 @@ bakery
 balance beam
 balloon
 ballpoint
-Band Aid
+band aid
 banjo
 bannister
 barbell
@@ -484,7 +484,7 @@ cassette
 cassette player
 castle
 catamaran
-CD player
+cd player
 cello
 cellular telephone
 chain
@@ -495,7 +495,7 @@ chest
 chiffonier
 chime
 china cabinet
-Christmas stocking
+christmas stocking
 church
 cinema
 cleaver
@@ -520,7 +520,7 @@ crane
 crash helmet
 crate
 crib
-Crock Pot
+crock pot
 croquet ball
 crutch
 cuirass
@@ -543,7 +543,7 @@ drilling platform
 drum
 drumstick
 dumbbell
-Dutch oven
+dutch oven
 electric fan
 electric guitar
 electric locomotive
@@ -565,7 +565,7 @@ fountain
 fountain pen
 four-poster
 freight car
-French horn
+french horn
 frying pan
 fur coat
 garbage truck
@@ -604,7 +604,7 @@ hoopskirt
 horizontal bar
 horse cart
 hourglass
-iPod
+ipod
 iron
 jack-o'-lantern
 jean
@@ -629,7 +629,7 @@ lighter
 limousine
 liner
 lipstick
-Loafer
+loafer
 lotion
 loudspeaker
 loupe
@@ -660,7 +660,7 @@ missile
 mitten
 mixing bowl
 mobile home
-Model T
+model t
 modem
 monastery
 monitor
@@ -711,7 +711,7 @@ pedestal
 pencil box
 pencil sharpener
 perfume
-Petri dish
+petri dish
 photocopier
 pick
 pickelhaube
@@ -731,7 +731,7 @@ plastic bag
 plate rack
 plow
 plunger
-Polaroid camera
+polaroid camera
 pole
 police van
 poncho
@@ -905,7 +905,7 @@ whistle
 wig
 window screen
 window shade
-Windsor tie
+windsor tie
 wine bottle
 wing
 wok
@@ -929,7 +929,7 @@ hot pot
 trifle
 ice cream
 ice lolly
-French loaf
+french loaf
 bagel
 pretzel
 cheeseburger
@@ -947,7 +947,7 @@ artichoke
 bell pepper
 cardoon
 mushroom
-Granny Smith
+granny smith
 strawberry
 orange
 lemon

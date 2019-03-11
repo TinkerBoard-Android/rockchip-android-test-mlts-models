@@ -6,7 +6,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.80
+          "expectedTop1": 0.617
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
@@ -23,7 +23,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.775
+          "expectedTop1": 0.596
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
@@ -42,7 +42,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.7125
+          "expectedTop1": 0.604
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 4,
@@ -59,7 +59,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.7125
+          "expectedTop1": 0.582
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 1,
@@ -78,7 +78,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.675
+          "expectedTop1": 0.582
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 4,
@@ -95,7 +95,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.6125
+          "expectedTop1": 0.550
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 1,
@@ -114,7 +114,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.56250
+          "expectedTop1": 0.444
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 4,
@@ -131,7 +131,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.55
+          "expectedTop1": 0.402
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 1,
@@ -150,7 +150,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.625
+          "expectedTop1": 0.516
       },
       "inputSize": [1, 128, 128, 3],
       "dataSize": 4,
@@ -167,7 +167,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.6875
+          "expectedTop1": 0.583
       },
       "inputSize": [1, 160, 160, 3],
       "dataSize": 4,
@@ -184,7 +184,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.7375
+          "expectedTop1": 0.617
       },
       "inputSize": [1, 192, 192, 3],
       "dataSize": 4,
@@ -201,7 +201,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.7875
+          "expectedTop1": 0.639
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 4,
@@ -218,7 +218,7 @@
       "baselineSec": 0.060,
       "evaluator": {
           "className": "TopK",
-          "expectedTop1": 0.728
+          "expectedTop1": 0.617
       },
       "inputSize": [1, 224, 224, 3],
       "dataSize": 1,
